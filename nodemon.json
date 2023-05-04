@@ -1,0 +1,8 @@
+{
+    "watch": ["src"],
+    "ignore": ["src/**/*.test.ts", "node_modules"],
+    "ext": "ts,mts,mjs,js,json,graphql",
+    "exec": "npm run build && node ./build/index.js",
+    "legacyWatch": true,
+    "allowOverwrite": true
+  }

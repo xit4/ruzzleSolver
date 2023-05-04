@@ -1,0 +1,23 @@
+{
+  "name": "ruzzlesolver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@wolfweb/trie-tree": "^1.0.1",
+    "trie-search": "^1.4.1"
+  }
+}
